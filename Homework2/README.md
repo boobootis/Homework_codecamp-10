@@ -2,6 +2,3 @@
 นาย มีสิทธิ์ ฉันทภควินท์
 Hello
 ....
-
-sda;ksd;kla
-dfgdfgdgdgdfg
