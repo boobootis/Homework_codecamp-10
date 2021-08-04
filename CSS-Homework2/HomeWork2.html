@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            height: 200vh;
+        }
+        .big{
+            width: 50%;
+            height: 50%;
+        }
+        .small{
+            width: 25%;
+            height: 25%;
+        }
+        .inside{
+            width:10%;
+            height: 10%;
+        }
+        .absolute{
+            position: absolute;
+        }
+        .relative{
+            position: relative;
+        }
+        .fixed{
+            position: fixed;
+        }
+        .top{ top:0}
+        .left{left:0}
+        .right{right:0}
+        .bottom{ bottom: 0}
+        .center{
+            left:50%; top:50%; transform: translate(-50%,-50%);
+        }
+        .red{ background-color: red;}
+        .green{background-color: green;}
+        .blue{background-color: blue;}
+        .yellow{background-color: yellow;}
+        .pink{background-color: pink;}
+        .white{background-color: white;}
+    </style>
+</head>
+<body>
+    
+<div class="absolute small red left "></div>
+<div class="absolute small green right"></div>
+<div class="absolute small yellow right bottom"></div>
+<div class="absolute small blue left bottom"></div>
+
+<div class="absolute white big center fixed">
+
+    <div class="relative fixed left pink inside center"></div>
+
+    <div class="absolute inside red left fixed"></div>
+<div class="absolute inside green right"></div>
+<div class="absolute inside yellow right bottom"></div>
+<div class="absolute inside blue left bottom"></div>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
